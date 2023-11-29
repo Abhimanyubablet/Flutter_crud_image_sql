@@ -9,6 +9,7 @@ class DatabaseHelper {
   static const dbVersion = 1;
   static const dbTable = "myTable";
   static const columnId = "id";
+  static const String columnImagePath="pic";
   static const columnName = "name";
   static const columnEmail = "email";
   static const columnContact = "contact";
@@ -45,6 +46,7 @@ class DatabaseHelper {
       $columnId INTEGER PRIMARY KEY AUTOINCREMENT,
       $columnName TEXT NOT NULL,
       $columnEmail TEXT NOT NULL,
+      $columnImagePath TEXT NOT NULL,
       $columnContact TEXT NOT NULL
       )
       ''');
