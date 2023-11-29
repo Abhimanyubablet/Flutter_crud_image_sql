@@ -23,6 +23,7 @@ class _InsertPageState extends State<InsertPage> {
       body: Container(
         child: Column(
           children: [
+
             Container(
               width: MediaQuery.of(context).size.width,
               child: Row(
@@ -37,6 +38,10 @@ class _InsertPageState extends State<InsertPage> {
                 ],
               ),
             ),
+
+
+
+
 
             Container(
               width: MediaQuery.of(context).size.width,
